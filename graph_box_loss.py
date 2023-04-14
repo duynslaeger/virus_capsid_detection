@@ -3,7 +3,7 @@ from matplotlib import pyplot as plt
 
 
 
-results = pd.read_csv("../results/results_small_pretraind.csv")
+results = pd.read_csv("results/results_small_pretraind.csv")
 # print(results)
 
 # print(type(results))

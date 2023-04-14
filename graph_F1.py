@@ -11,8 +11,8 @@ def f1(precision, recall):
 	return res
 
 
-results_scratch = pd.read_csv("../results_small_from_scratch.csv")
-results_pretrained = pd.read_csv("../results_small_pretraind.csv")
+results_scratch = pd.read_csv("results/results_small_from_scratch.csv")
+results_pretrained = pd.read_csv("results/results_small_pretraind.csv")
 # print(results)
 
 # print(type(results))
